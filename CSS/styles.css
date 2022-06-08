@@ -327,3 +327,18 @@ input::placeholder {
     font-size: 1.8rem;
   }
 }
+
+/* MEDIA */
+
+.media {
+  display: flex;
+}
+.media__body {
+  margin: 0 1.5rem;
+}
+.media__body .media__title {
+  margin-top: 0;
+}
+.media .media__image {
+  margin-top: 1.5rem;
+}
