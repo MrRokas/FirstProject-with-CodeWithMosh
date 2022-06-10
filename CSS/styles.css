@@ -451,7 +451,7 @@ input::placeholder {
 /* CALLOUTS */
 
 .callout {
-  padding: 5rem;
+  padding: 4rem;
   border-radius: 5px;
   text-align: center;
 }
@@ -482,4 +482,36 @@ input::placeholder {
     margin-left: 5rem;
     justify-self: start;
   }
+}
+
+/* COLLAPSIBLES */
+
+.collapsible__header {
+  display: flex;
+  justify-content: space-between;
+}
+.collapsible__heading {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.collapsible__chevron {
+  transform: rotate(-90deg);
+  transition: all 0.3s;
+}
+
+.collapsible--expanded .collapsible__chevron {
+  transform: rotate(0);
+}
+
+.collapsible__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.collapsible--expanded .collapsible__content {
+  max-height: 100vh;
+  opacity: 1;
 }
