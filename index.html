@@ -14,28 +14,18 @@
     <link rel="stylesheet" href="/CSS/styles.css" />
   </head>
   <body>
-    <section class="block">
-      <div class="block__content">
-        <div class="block__header">
-          <h2 class="block__heading">Cloud Hosting For Pros</h2>
-          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Sapiente, optio earum. Perferendis dolore id
-          suscipit officia fuga, repellat ab dicta itaque accusamus commodi
-          quos. Alias quos aliquam debitis fugit magnam.
-        </div>
-      </div>
-    </section>
-    <section class="block block--black block--left-skewed">
-      <div class="block__content">
-        <div class="block__header">
-          <h2 class="block__heading">Cloud Hosting For Pros</h2>
-          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Laborum quas vel facilis delectus, a quod! Enim aut
-          reiciendis labore? Quaerat impedit ullam voluptatum dignissimos minus
-          eos eligendi mollitia nobis quo.
-        </div>
-      </div>
-    </section>
-    <script src="/js/main.js"></script>
+    <nav class="nav collapsible">
+      <a class="logo" href="/"><img src="/images/logo.svg" alt="" /></a>
+      <svg class="icon icon--white nav__toggler">
+        <use href="/images/sprite.svg#menu"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Hosting</a></li>
+        <li class="nav__item"><a href="#">VPS</a></li>
+        <li class="nav__item"><a href="#">Domain</a></li>
+        <li class="nav__item"><a href="#">Pricing</a></li>
+      </ul>
+    </nav>
+    <script src="./js/main.js"></script>
   </body>
 </html>
