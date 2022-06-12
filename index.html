@@ -14,28 +14,42 @@
     <link rel="stylesheet" href="/CSS/styles.css" />
   </head>
   <body>
-    <article class="block block--black block--left-skewed hero">
-      <div class="block__content grid grid--cols-2">
-        <header class="block__header">
-          <h1 class="block__heading hero__heading">Cloud Hosting for Pros</h1>
-          <p class="hero__tagline">
-            Deploy your website in less than 60 seconds.
+    <article class="block domain__block">
+      <div class="block__content">
+        <div class="block__header">
+          <h2 class="domain__heading">
+            The best web hosting Starting at 9$ per month
+          </h2>
+          <p class="domain__content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <a class="btn btn--accent btn--stretched btn--hero" href="#"
-            >GET STARRTED</a
-          >
-        </header>
-        <picture>
-          <source
-            type="image/webp"
-            srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
+        </div>
+        <div class="input-group">
+          <input
+            class="input"
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter domain name here..."
           />
-          <source
-            type="image/png"
-            srcset="images/banner.png 1x, images/banner@2x.png 2x"
-          />
-          <img class="hero__image" src="/images/banner.png" alt="" />
-        </picture>
+          <button class="btn btn--accent">
+            <svg class="icon icon--primary">
+              <use href="/images/sprite.svg#search"></use>
+            </svg>
+            search
+          </button>
+        </div>
+        <ul class="list domain__pricing">
+          <li>
+            <span class="badge badge--secondary badge-small">.com $9</span>
+          </li>
+          <li>.sg $8</li>
+          <li>.space $12</li>
+          <li>.info $14</li>
+          <li>.net $16</li>
+          <li>.xyz $10</li>
+        </ul>
       </div>
     </article>
     <script src="/js/main.js"></script>
