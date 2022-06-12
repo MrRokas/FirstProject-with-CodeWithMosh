@@ -30,6 +30,7 @@ h2,
 h3 {
   color: var(--color-headings);
   margin-bottom: 1rem;
+  line-height: 1.1;
 }
 h1 {
   font-size: 7rem;
@@ -589,7 +590,6 @@ input::placeholder {
 .logo {
   transform: translateY(5px);
 }
-
 @media screen and (min-width: 768px) {
   .nav__toggler {
     display: none;
@@ -603,5 +603,35 @@ input::placeholder {
   }
   .nav__item {
     border: 0;
+  }
+}
+
+/* HERO */
+.hero {
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+.hero__image {
+  width: 100%;
+}
+.hero__tagline {
+  font-size: 2rem;
+  color: #b9c3cf;
+  padding-bottom: 2rem;
+  letter-spacing: 1px;
+}
+.hero__heading {
+  margin: 5rem 0 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 0rem;
+  }
+  .block__header {
+    align-self: center;
+    text-align: left;
+  }
+  .hero__tagline {
+    padding-bottom: 3rem;
   }
 }

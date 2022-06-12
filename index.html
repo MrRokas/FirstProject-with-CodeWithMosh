@@ -7,25 +7,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/CSS/normalize.css" />
     <link rel="stylesheet" href="/CSS/styles.css" />
   </head>
   <body>
-    <nav class="nav collapsible">
-      <a class="logo" href="/"><img src="/images/logo.svg" alt="" /></a>
-      <svg class="icon icon--white nav__toggler">
-        <use href="/images/sprite.svg#menu"></use>
-      </svg>
-      <ul class="list nav__list collapsible__content">
-        <li class="nav__item"><a href="#">Hosting</a></li>
-        <li class="nav__item"><a href="#">VPS</a></li>
-        <li class="nav__item"><a href="#">Domain</a></li>
-        <li class="nav__item"><a href="#">Pricing</a></li>
-      </ul>
-    </nav>
-    <script src="./js/main.js"></script>
+    <article class="block block--black block--left-skewed hero">
+      <div class="block__content grid grid--cols-2">
+        <header class="block__header">
+          <h1 class="block__heading hero__heading">Cloud Hosting for Pros</h1>
+          <p class="hero__tagline">
+            Deploy your website in less than 60 seconds.
+          </p>
+          <a class="btn btn--accent btn--stretched btn--hero" href="#"
+            >GET STARRTED</a
+          >
+        </header>
+        <img class="hero__image" src="/images/banner.png" alt="" />
+      </div>
+    </article>
+    <script src="/js/main.js"></script>
   </body>
 </html>
