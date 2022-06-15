@@ -1,0 +1,78 @@
+<section class="block">
+  <header class="block__header">
+    <h2>Host Оn Тhe Cloud to Keep Growing</h2>
+    <p>
+      Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+      accumsan
+    </p>
+  </header>
+  <article class="block block-features">
+    <div class="block__content grid grid--cols-2 features">
+      <div class="features__content">
+        <span class="icon-wrap">
+          <svg class="icon icon--primary">
+            <use href="/images/sprite.svg#easy"></use>
+          </svg>
+        </span>
+        <h3 class="features__heading">Super Easy to Use</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ut
+          cumque quo deserunt eius? Ipsa magnam, culpa veniam consectetur harum
+          corporis iure. Repellat quis sunt eos voluptates corrupti aut dicta!
+        </p>
+        <a class="link-arrow" href="#">Learn more</a>
+      </div>
+      <img
+        srcset="/images/easy.webp 1x, /images/easy@2x.webp 2x"
+        src="/images/easy.jpg"
+        alt=""
+      />
+    </div>
+  </article>
+  <article class="block block-features">
+    <div class="block__content grid grid--cols-2 features">
+      <div class="features__content features--swap">
+        <span class="icon-wrap">
+          <svg class="icon icon--primary">
+            <use href="/images/sprite.svg#computer"></use>
+          </svg>
+        </span>
+        <h3 class="features__heading">Simply fast websites</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ut
+          cumque quo deserunt eius? Ipsa magnam, culpa veniam consectetur harum
+          corporis iure. Repellat quis sunt eos voluptates corrupti aut dicta!
+        </p>
+        <a class="link-arrow" href="#">Learn more</a>
+      </div>
+      <img
+        srcset="/images/easy.webp 1x, /images/easy@2x.webp 2x"
+        src="/images/easy.jpg"
+        alt=""
+      />
+    </div>
+  </article>
+  <article class="block block-features">
+    <div class="block__content grid grid--cols-2 features">
+      <div class="features__content">
+        <span class="icon-wrap">
+          <svg class="icon icon--primary">
+            <use href="/images/sprite.svg#settings"></use>
+          </svg>
+        </span>
+        <h3 class="features__heading">WordPress made easy</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ut
+          cumque quo deserunt eius? Ipsa magnam, culpa veniam consectetur harum
+          corporis iure. Repellat quis sunt eos voluptates corrupti aut dicta!
+        </p>
+        <a class="link-arrow" href="#">Learn more</a>
+      </div>
+      <img
+        srcset="/images/easy.webp 1x, /images/easy@2x.webp 2x"
+        src="/images/easy.jpg"
+        alt=""
+      />
+    </div>
+  </article>
+</section>

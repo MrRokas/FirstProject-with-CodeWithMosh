@@ -14,73 +14,87 @@
     <link rel="stylesheet" href="/CSS/styles.css" />
   </head>
   <body>
-    <article class="block block-plans">
-      <div class="block__content grid grid--cols-3">
-        <div class="plan">
-          <div class="card card--secondary">
-            <header class="card__header">
-              <h3 class="plan__name">Entry</h3>
-              <span class="plan__price">14$</span>
-              <span class="plan__billing">/month</span>
-              <span class="badge badge--secondary badge--small">20% OFF</span>
-              <span class="plan__description">Easy start on the cloud</span>
-            </header>
-            <div class="card__body">
-              <ul class="list list--tick">
-                <li class="list__item">Unlimited Websites</li>
-                <li class="list__item">Unlimited Bandwith</li>
-                <li class="list__item">100 GB SSD Storage</li>
-                <li class="list__item">3 GB RAM</li>
-                <li class="list__item">2 CPU Cores</li>
-              </ul>
-              <button class="btn btn--outline btn--block">BUY NOW</button>
-            </div>
+    <section class="block">
+      <header class="block__header">
+        <h2>Host Оn Тhe Cloud to Keep Growing</h2>
+        <p>
+          Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+          maecenas accumsan
+        </p>
+      </header>
+      <article class="block block-features">
+        <div class="block__content grid grid--cols-2 features">
+          <div class="features__content">
+            <span class="icon-wrap">
+              <svg class="icon icon--primary">
+                <use href="/images/sprite.svg#easy"></use>
+              </svg>
+            </span>
+            <h3 class="features__heading">Super Easy to Use</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ut
+              cumque quo deserunt eius? Ipsa magnam, culpa veniam consectetur
+              harum corporis iure. Repellat quis sunt eos voluptates corrupti
+              aut dicta!
+            </p>
+            <a class="link-arrow" href="#">Learn more</a>
           </div>
+          <img
+            srcset="/images/easy.webp 1x, /images/easy@2x.webp 2x"
+            src="/images/easy.jpg"
+            alt=""
+          />
         </div>
-        <div class="plan plan--popular">
-          <div class="card card--primary">
-            <header class="card__header">
-              <h3 class="plan__name">Business</h3>
-              <span class="plan__price">$24</span>
-              <span class="plan__billing">/month</span>
-              <span class="badge badge--primary badge--small">20% OFF</span>
-              <span class="plan__description">Optimal Cloud Experience</span>
-            </header>
-            <div class="card__body">
-              <ul class="list list--tick">
-                <li class="list__item">Unlimited Websites</li>
-                <li class="list__item">Unlimited Bandwith</li>
-                <li class="list__item">100 GB SSD Storage</li>
-                <li class="list__item">3 GB RAM</li>
-                <li class="list__item">2 CPU Cores</li>
-              </ul>
-              <button class="btn btn--outline btn--block">BUY NOW</button>
-            </div>
+      </article>
+      <article class="block block-features">
+        <div class="block__content grid grid--cols-2 features">
+          <div class="features__content features--swap">
+            <span class="icon-wrap">
+              <svg class="icon icon--primary">
+                <use href="/images/sprite.svg#computer"></use>
+              </svg>
+            </span>
+            <h3 class="features__heading">Simply fast websites</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ut
+              cumque quo deserunt eius? Ipsa magnam, culpa veniam consectetur
+              harum corporis iure. Repellat quis sunt eos voluptates corrupti
+              aut dicta!
+            </p>
+            <a class="link-arrow" href="#">Learn more</a>
           </div>
+          <img
+            srcset="/images/easy.webp 1x, /images/easy@2x.webp 2x"
+            src="/images/easy.jpg"
+            alt=""
+          />
         </div>
-        <div class="plan">
-          <div class="card card--secondary">
-            <header class="card__header">
-              <h3 class="plan__name">Business</h3>
-              <span class="plan__price">$54</span>
-              <span class="plan__billing">/month</span>
-              <span class="badge badge--secondary badge--small">20% OFF</span>
-              <span class="plan__description">Easy start on the cloud</span>
-            </header>
-            <div class="card__body">
-              <ul class="list list--tick">
-                <li class="list__item">Unlimited Websites</li>
-                <li class="list__item">Unlimited Bandwith</li>
-                <li class="list__item">100 GB SSD Storage</li>
-                <li class="list__item">3 GB RAM</li>
-                <li class="list__item">2 CPU Cores</li>
-              </ul>
-              <button class="btn btn--outline btn--block">BUY NOW</button>
-            </div>
+      </article>
+      <article class="block block-features">
+        <div class="block__content grid grid--cols-2 features">
+          <div class="features__content">
+            <span class="icon-wrap">
+              <svg class="icon icon--primary">
+                <use href="/images/sprite.svg#settings"></use>
+              </svg>
+            </span>
+            <h3 class="features__heading">WordPress made easy</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ut
+              cumque quo deserunt eius? Ipsa magnam, culpa veniam consectetur
+              harum corporis iure. Repellat quis sunt eos voluptates corrupti
+              aut dicta!
+            </p>
+            <a class="link-arrow" href="#">Learn more</a>
           </div>
+          <img
+            srcset="/images/easy.webp 1x, /images/easy@2x.webp 2x"
+            src="/images/easy.jpg"
+            alt=""
+          />
         </div>
-      </div>
-    </article>
+      </article>
+    </section>
     <script src="/js/main.js"></script>
   </body>
 </html>
