@@ -14,69 +14,51 @@
     <link rel="stylesheet" href="/CSS/styles.css" />
   </head>
   <body>
-    <section class="block block--black block--right-skewed showcase-block">
+    <section class="block">
       <header class="block__header">
-        <h2>User-Friendly Control Panel</h2>
+        <h2>What our Customer are Saying</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi,
+          corrupti?
+        </p>
       </header>
-      <div class="block__content grid grid--cols-2">
-        <img
-          class="showcase__image"
-          srcset="/images/ipad.webp 1x, /images/ipad@2x.webp 2x"
-          src="/images/ipad.png"
-          alt=""
-        />
-        <ul class="list">
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#snap"></use>
+      <div class="block__content">
+        <div class="card testimonial">
+          <div class="grid grid--cols-2">
+            <div class="testimonial__img">
+              <img
+                src="/images/testimonial.jpg"
+                alt="Happy, smiling customer"
+              />
+              <span class="icon-wrap icon-wrap__accent">
+                <svg class="icon--small icon--white">
+                  <use href="/images/sprite.svg#quotes"></use>
                 </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Easy Start & Managed Updates</h3>
-                <p>
+              </span>
+            </div>
+            <div class="testimonial__text">
+              <blockquote class="quote">
+                <p class="quote__text">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
-                  vel perspiciatis consequuntur ab.
+                  Consequatur dolorum rerum, id libero voluptas laborum quaerat
+                  hic in autem alias. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quae, pariatur!
                 </p>
-              </div>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote__line">
+                      <use xlink:href="images/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote--author">Jhone Lumeo</h3>
+                    <p class="quote__company">Mosh Company ceo</p>
+                  </div>
+                </div>
+              </blockquote>
             </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#growth"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Staging, Git & WP-CLI</h3>
-                <p>
-                  We make your WordPress and WooCommerce development flow easier
-                  with a convenient staging tool and Git and WP-CLI integration.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#wordpress"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Dynamic Caching & More</h3>
-                <p>
-                  Speed up your WordPress and Woo sites with our SG Optimizer
-                  plugin through smart dynamic caching and multiple other
-                  performance optimizations.
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </section>
     <script src="/js/main.js"></script>

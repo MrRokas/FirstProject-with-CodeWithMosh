@@ -559,7 +559,7 @@ input::placeholder {
 }
 .block__header {
   text-align: center;
-  margin-bottom: 4rem;
+  margin: 0 2rem 4rem;
 }
 .block__heading {
   margin-top: 0;
