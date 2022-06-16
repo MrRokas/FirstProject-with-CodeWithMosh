@@ -14,86 +14,70 @@
     <link rel="stylesheet" href="/CSS/styles.css" />
   </head>
   <body>
-    <section class="block">
+    <section class="block block--black block--right-skewed showcase-block">
       <header class="block__header">
-        <h2>Host Оn Тhe Cloud to Keep Growing</h2>
-        <p>
-          Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-          maecenas accumsan
-        </p>
+        <h2>User-Friendly Control Panel</h2>
       </header>
-      <article class="block block-features">
-        <div class="block__content grid grid--cols-2 features">
-          <div class="features__content">
-            <span class="icon-wrap">
-              <svg class="icon icon--primary">
-                <use href="/images/sprite.svg#easy"></use>
-              </svg>
-            </span>
-            <h3 class="features__heading">Super Easy to Use</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ut
-              cumque quo deserunt eius? Ipsa magnam, culpa veniam consectetur
-              harum corporis iure. Repellat quis sunt eos voluptates corrupti
-              aut dicta!
-            </p>
-            <a class="link-arrow" href="#">Learn more</a>
-          </div>
-          <img
-            srcset="/images/easy.webp 1x, /images/easy@2x.webp 2x"
-            src="/images/easy.jpg"
-            alt=""
-          />
-        </div>
-      </article>
-      <article class="block block-features">
-        <div class="block__content grid grid--cols-2 features">
-          <div class="features__content features--swap">
-            <span class="icon-wrap">
-              <svg class="icon icon--primary">
-                <use href="/images/sprite.svg#computer"></use>
-              </svg>
-            </span>
-            <h3 class="features__heading">Simply fast websites</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ut
-              cumque quo deserunt eius? Ipsa magnam, culpa veniam consectetur
-              harum corporis iure. Repellat quis sunt eos voluptates corrupti
-              aut dicta!
-            </p>
-            <a class="link-arrow" href="#">Learn more</a>
-          </div>
-          <img
-            srcset="/images/easy.webp 1x, /images/easy@2x.webp 2x"
-            src="/images/easy.jpg"
-            alt=""
-          />
-        </div>
-      </article>
-      <article class="block block-features">
-        <div class="block__content grid grid--cols-2 features">
-          <div class="features__content">
-            <span class="icon-wrap">
-              <svg class="icon icon--primary">
-                <use href="/images/sprite.svg#settings"></use>
-              </svg>
-            </span>
-            <h3 class="features__heading">WordPress made easy</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ut
-              cumque quo deserunt eius? Ipsa magnam, culpa veniam consectetur
-              harum corporis iure. Repellat quis sunt eos voluptates corrupti
-              aut dicta!
-            </p>
-            <a class="link-arrow" href="#">Learn more</a>
-          </div>
-          <img
-            srcset="/images/easy.webp 1x, /images/easy@2x.webp 2x"
-            src="/images/easy.jpg"
-            alt=""
-          />
-        </div>
-      </article>
+      <div class="block__content grid grid--cols-2">
+        <img
+          class="showcase__image"
+          srcset="/images/ipad.webp 1x, /images/ipad@2x.webp 2x"
+          src="/images/ipad.png"
+          alt=""
+        />
+        <ul class="list">
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="images/sprite.svg#snap"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Easy Start & Managed Updates</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                  vel perspiciatis consequuntur ab.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="images/sprite.svg#growth"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Staging, Git & WP-CLI</h3>
+                <p>
+                  We make your WordPress and WooCommerce development flow easier
+                  with a convenient staging tool and Git and WP-CLI integration.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="media">
+              <div class="media__image">
+                <svg class="icon icon--primary">
+                  <use xlink:href="images/sprite.svg#wordpress"></use>
+                </svg>
+              </div>
+              <div class="media__body">
+                <h3 class="media__title">Dynamic Caching & More</h3>
+                <p>
+                  Speed up your WordPress and Woo sites with our SG Optimizer
+                  plugin through smart dynamic caching and multiple other
+                  performance optimizations.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <script src="/js/main.js"></script>
   </body>
