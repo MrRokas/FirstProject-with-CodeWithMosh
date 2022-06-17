@@ -179,7 +179,7 @@ a {
   cursor: pointer;
   font-size: 1.8rem;
   font-weight: 600;
-  padding: 2rem 4rem;
+  padding: 2rem 4vw;
   text-transform: uppercase;
   white-space: nowrap;
   text-align: center;
@@ -259,6 +259,7 @@ input::placeholder {
   border: 0;
   flex-grow: 1;
   padding-left: 1.5rem;
+  width: 0;
 }
 .input-group .btn {
   margin: 4px;
@@ -444,9 +445,9 @@ input::placeholder {
   }
 }
 @media screen and (min-width: 1024px) {
-}
-.grid--cols-3 {
-  grid-template-columns: 1fr 1fr 1fr;
+  .grid--cols-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 /* TESTIMONIAL */
@@ -547,7 +548,7 @@ input::placeholder {
 /* BLOCKS */
 
 .block {
-  --paddingX: 6rem;
+  --paddingX: 4rem;
   padding: var(--paddingX) 2rem;
 }
 .block__content {
@@ -686,13 +687,14 @@ input::placeholder {
   margin: 0 auto;
 }
 .domain__pricing {
+  color: var(--color-headings);
   align-items: center;
   display: grid;
   font-size: 2rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   justify-items: center;
-  margin: 4rem auto;
+  margin: 2rem auto;
   max-width: 700px;
 }
 
@@ -739,7 +741,7 @@ input::placeholder {
 .block-features img {
   width: 100%;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 765px) {
   .features--swap {
     order: 2;
   }
