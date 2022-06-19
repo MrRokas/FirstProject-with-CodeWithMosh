@@ -3,7 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Deploy your website in less than 60seconds..."
+    />
+    <meta property="og:title" content="Moshify..." />
+    <meta property="og:description" content="Moshify..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://" />
+    <meta property="og:url" content="https://moshified.com" />
+    <title>Moshify - Go online</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,6 +21,7 @@
     />
     <link rel="stylesheet" href="/CSS/normalize.css" />
     <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header class="block--black">
@@ -32,7 +42,7 @@
     </header>
     <article class="block block--black block--left-skewed hero">
       <div class="block__content grid grid--cols-2">
-        <header class="block__header hero__header">
+        <header class="block__header hero__header" data-aos="fade-right">
           <h1 class="block__heading hero__heading">Cloud Hosting for Pros</h1>
           <p class="hero__tagline">
             Deploy your website in less than 60 seconds.
@@ -41,7 +51,7 @@
             >GET STARRTED</a
           >
         </header>
-        <picture>
+        <picture data-aos="zoom-in">
           <source
             type="image/webp"
             srcset="images/banner.webp 1x, images/banner@2x.webp 2x"
@@ -54,7 +64,7 @@
         </picture>
       </div>
     </article>
-    <article class="block domain__block">
+    <article class="block domain__block" data-aos="fade-up">
       <div class="block__content">
         <div class="block__header">
           <h2 class="domain__heading">
@@ -69,8 +79,8 @@
           <input
             class="input"
             type="text"
-            name=""
-            id=""
+            name="search"
+            id="search-block"
             placeholder="Enter domain name here..."
           />
           <button class="btn btn--accent">
@@ -92,7 +102,7 @@
         </ul>
       </div>
     </article>
-    <article class="block block-plans">
+    <article class="block block-plans" data-aos="fade-up">
       <div class="block__content grid grid--cols-3">
         <div class="plan">
           <div class="card card--secondary">
@@ -169,7 +179,7 @@
       </header>
       <article class="block block-features">
         <div class="block__content grid grid--cols-2 features">
-          <div class="features__content">
+          <div class="features__content" data-aos="fade-right">
             <span class="icon-wrap">
               <svg class="icon icon--primary">
                 <use href="/images/sprite.svg#easy"></use>
@@ -185,6 +195,7 @@
             <a class="link-arrow" href="#">Learn more</a>
           </div>
           <img
+            data-aos="fade-left"
             srcset="/images/easy.webp 1x, /images/easy@2x.webp 2x"
             src="/images/easy.jpg"
             alt=""
@@ -246,12 +257,13 @@
       </header>
       <div class="block__content grid grid--cols-2">
         <img
+          data-aos="fade-up"
           class="showcase__image"
           srcset="/images/ipad.webp 1x, /images/ipad@2x.webp 2x"
           src="/images/ipad.png"
           alt=""
         />
-        <ul class="list">
+        <ul class="list" data-aos="fade-left">
           <li>
             <div class="media">
               <div class="media__image">
@@ -305,7 +317,7 @@
         </ul>
       </div>
     </section>
-    <section class="block">
+    <section class="block" data-aos="zoom-in-up">
       <header class="block__header">
         <h2>What our Customer are Saying</h2>
         <p>
@@ -352,6 +364,21 @@
         </div>
       </div>
     </section>
+    <div class="block__content">
+      <div class="callout callout--primary callout-signup">
+        <div class="grid grid--cols-2">
+          <div class="callout__content">
+            <h3 class="callout__heading">Ready To Get Started?</h3>
+            <p>
+              Choose the hosting provider that helps you start easy, build fast,
+              and grow strong! It’s risk-free with our 14-day money back
+            </p>
+          </div>
+          <a href="#" class="btn btn--secondary btn--stretched">GET STARTED</a>
+        </div>
+      </div>
+    </div>
+
     <footer class="block block--black footer">
       <div class="block__content grid footer__content">
         <div class="collapsible footer__item">
@@ -436,10 +463,14 @@
         </div>
         <div class="copyright__item">
           <a class="logo" href="/"><img src="/images/logo.svg" alt="" /></a>
-          <p>Copyright &copy 2020 mosh</p>
+          <p>Copyright &copy; 2020 mosh</p>
         </div>
       </div>
     </footer>
     <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
