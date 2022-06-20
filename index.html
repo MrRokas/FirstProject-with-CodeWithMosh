@@ -19,7 +19,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/CSS/normalize.css" />
     <link rel="stylesheet" href="/CSS/styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
@@ -27,7 +26,9 @@
     <header class="block--black">
       <div class="block__content">
         <nav class="nav collapsible">
-          <a class="logo" href="/"><img src="/images/logo.svg" alt="" /></a>
+          <a aria-label="Moshify" class="logo" href="/"
+            ><img src="/images/logo.svg" alt=""
+          /></a>
           <svg class="icon icon--white nav__toggler">
             <use href="/images/sprite.svg#menu"></use>
           </svg>
@@ -77,6 +78,7 @@
         </div>
         <div class="input-group">
           <input
+            aria-label="Domain"
             class="input"
             type="text"
             name="search"
