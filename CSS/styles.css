@@ -606,7 +606,7 @@ input::placeholder {
   color: #d2d0db;
 }
 .nav__toggler {
-  opacity: 40%;
+  opacity: 1;
   transition: all 0.15s;
   cursor: pointer;
 }
